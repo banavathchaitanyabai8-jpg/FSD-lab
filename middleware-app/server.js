@@ -5,7 +5,7 @@ dotenv.config();
 const app=express();
 app.use(express.json());
 const PORT=process.env.PORT || 8000;
-const dbUrl=process.env.MONGO_URI;
+const dbUrl=process.env.MONGO_URL;
 const dbname=process.env.DB_NAME;
 mongoose.connect(dbUrl,{
     dbName:dbname,
