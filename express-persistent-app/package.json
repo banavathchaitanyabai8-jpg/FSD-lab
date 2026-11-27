@@ -1,0 +1,17 @@
+{
+  "name": "express-persistant-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "sameera",
+  "type": "module",
+  "main": "facuty.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "keywords": []
+}
